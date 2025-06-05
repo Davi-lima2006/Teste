@@ -9,6 +9,6 @@ document.getElementById("formulario").addEventListener("submit", function (e) {
     erroMsg.textContent = "Preencha todos os campos corretamente.";
   } else {
     erroMsg.textContent = "";
-    alert("Formulário enviado com sucesso!");
+    alert("Formulário enviado com sucesso!")
   }
 });
