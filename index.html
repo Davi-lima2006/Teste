@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minha Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header role="banner">
+    <h1>Bem-vindo à Página Exemplo</h1>
+    <nav aria-label="Menu principal">
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sobre">
+      <h2>Sobre Nós</h2>
+      <p>Bora pra cima.</p>
+      <img src="image.png" alt="Descrição da imagem" />
+    </section>
+
+    <section id="servicos">
+      <h2>Serviços</h2>
+      <p>Lista dos serviços oferecidos.</p>
+    </section>
+
+    <section id="contato">
+      <h2>Fale Conosco</h2>
+      <form id="formulario">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" aria-label="Digite seu nome" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required />
+
+        <button type="submit">Enviar</button>
+        <p id="erro-msg" style="color: red;"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - Todos os direitos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
